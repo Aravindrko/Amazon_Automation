@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <!-- Property to store dynamic log file name -->
+    <Properties>
+        <Property name="logmain">${sys:user.dir}/Logs/logdatamain-%d{MM-DD-yyyy}.log</Property>
+        <Property name="loginfo">${sys:user.dir}/Logs/loginfo-%d{MM-dd-yyyy}.log</Property>
+    </Properties>
+
+    <!-- Console Appender for logging to the console -->
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- File Appender with flexible file name -->
+        <RollingFile name="File" fileName="${logmain}" filePattern="${loginfo}">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+            
+            <!-- Rolling policy: File size trigger -->
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+
+            <!-- Keep up to 30 backup files -->
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+    </Appenders>
+
+    <!-- Logger configuration -->
+    <Loggers>
+        <Logger name="com.mycompany" level="debug" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+
+        <!-- Root logger configuration -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

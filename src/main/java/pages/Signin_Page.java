@@ -8,12 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class Signin_Page {
 	WebDriver driver;
 	
-	//@FindBy(xpath = "//*[@id=\"ap_email\"]") //*[@id="ap_email_login"]
-	@FindBy(xpath = "//*[@id=\"ap_email\"]")
+	@FindBy(xpath = "//input[@type = \"email\" and @name = \"email\"]")
 	WebElement Email_Field;
-	
-	@FindBy(xpath = "//*[@id=\"ap_email_login\"]")
-	WebElement Email_Field_2;
 	
 	@FindBy(xpath = "//*[@id=\"continue\"]/span/input")
 	WebElement Signin_Button;
@@ -34,10 +30,6 @@ public class Signin_Page {
 	
 	public void Enter_email_address(String email) {
 		Email_Field.sendKeys(email);
-	}
-	
-	public void Enter_email_address_2(String email) {
-		Email_Field_2.sendKeys(email);
 	}
 	
 	public void Click_on_Signin() {

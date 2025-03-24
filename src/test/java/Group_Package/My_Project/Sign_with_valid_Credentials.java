@@ -38,13 +38,13 @@ public class Sign_with_valid_Credentials extends Log_adder{
 		logger.info("Entering the email address.."+Page_select.signin_page.check_element_of_email());
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]/span/input"))));
 		System.out.println("Entering the email address.."+Page_select.signin_page.check_element_of_email());
-		if(Page_select.signin_page.check_element_of_email() == "ap_email_login") {
+		/*if(Page_select.signin_page.check_element_of_email() == "ap_email_login") {
 			wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_email_login\"]]"))));
 			Page_select.signin_page.Enter_email_address_2(properties_retriever.Data("valid_email"));
 		}else {
 			wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_email\"]"))));
 			Page_select.signin_page.Enter_email_address(properties_retriever.Data("valid_email"));
-		}
+		}*/
 		logger.info("Done entering the email address..");
 		logger.info("Clicking on Signin..");
 		Page_select.signin_page.Click_on_Signin();

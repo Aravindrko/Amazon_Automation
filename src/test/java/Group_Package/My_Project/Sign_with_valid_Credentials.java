@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -18,7 +20,7 @@ public class Sign_with_valid_Credentials extends Log_adder{
 	WebDriverWait wait;
 	Page_Initializer Page_select;
 	Driver_Selectable driver_select = new Driver_Selectable();
-	@BeforeMethod
+	@BeforeClass
 	public void selecting_Browser() throws IOException {
 		String browser = properties_retriever.Data("browser");
 		driver = driver_select.Select_The_Driver(browser);
@@ -35,16 +37,8 @@ public class Sign_with_valid_Credentials extends Log_adder{
 		logger.info("Window has been maximized");
 		Page_select.home_page.signin_click();
 		wait = new WebDriverWait(driver, Duration.ofSeconds(2));
-		logger.info("Entering the email address.."+Page_select.signin_page.check_element_of_email());
-		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"continue\"]/span/input"))));
 		System.out.println("Entering the email address.."+Page_select.signin_page.check_element_of_email());
-		/*if(Page_select.signin_page.check_element_of_email() == "ap_email_login") {
-			wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_email_login\"]]"))));
-			Page_select.signin_page.Enter_email_address_2(properties_retriever.Data("valid_email"));
-		}else {
-			wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_email\"]"))));
-			Page_select.signin_page.Enter_email_address(properties_retriever.Data("valid_email"));
-		}*/
+		Page_select.signin_page.Enter_email_address(properties_retriever.Data("valid_email"));
 		logger.info("Done entering the email address..");
 		logger.info("Clicking on Signin..");
 		Page_select.signin_page.Click_on_Signin();
@@ -59,6 +53,11 @@ public class Sign_with_valid_Credentials extends Log_adder{
 		}else {
 			logger.info("Unable to log into the system, some issue occurred.."+Page_select.home_page.get_signed_name());
 		}
+	}
+	
+	@AfterClass
+	public void done_with_performing() {
+		driver.close();
 		driver.quit();
 	}
 

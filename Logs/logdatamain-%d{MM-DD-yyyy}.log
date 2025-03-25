@@ -230,3 +230,63 @@
 2025-03-24 23:29:14 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - searching for the product..
 2025-03-24 23:29:14 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - opening the product
 2025-03-24 23:31:10 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully added product to the cart..
+2025-03-25 08:04:17 [main] INFO  Group_Package.My_Project.Sign_with_valid_Credentials - WebDriver of type chrome driver has been selected...
+2025-03-25 08:04:32 [main] INFO  Group_Package.My_Project.Sign_with_valid_Credentials - URL has been launched
+2025-03-25 08:04:36 [main] INFO  Group_Package.My_Project.Sign_with_valid_Credentials - Window has been maximized
+2025-03-25 08:06:01 [main] INFO  Group_Package.My_Project.Sign_with_valid_Credentials - Done entering the email address..
+2025-03-25 08:06:01 [main] INFO  Group_Package.My_Project.Sign_with_valid_Credentials - Clicking on Signin..
+2025-03-25 08:06:14 [main] INFO  Group_Package.My_Project.Sign_with_valid_Credentials - Done clicking on Signin..
+2025-03-25 08:07:08 [main] INFO  Group_Package.My_Project.Sign_with_valid_Credentials - Unable to log into the system, some issue occurred..Hello, Aravind
+2025-03-25 08:26:12 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - WebDriver of type chrome driver has been selected...
+2025-03-25 08:26:24 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - URL has been launched
+2025-03-25 08:26:29 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Window has been maximized
+2025-03-25 08:27:52 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done entering the email address..
+2025-03-25 08:27:52 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Clicking on Signin..
+2025-03-25 08:28:08 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done clicking on Signin..
+2025-03-25 08:28:42 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully Logged in to the application..
+2025-03-25 08:30:19 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully entered the search criteria into the search field..
+2025-03-25 08:30:55 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - searching for the product..
+2025-03-25 08:30:55 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - opening the product
+2025-03-25 08:33:30 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - WebDriver of type chrome driver has been selected...
+2025-03-25 08:33:44 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - URL has been launched
+2025-03-25 08:33:50 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Window has been maximized
+2025-03-25 08:35:08 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done entering the email address..
+2025-03-25 08:35:08 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Clicking on Signin..
+2025-03-25 08:35:25 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done clicking on Signin..
+2025-03-25 08:36:04 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully Logged in to the application..
+2025-03-25 08:36:53 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully entered the search criteria into the search field..
+2025-03-25 08:37:16 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - searching for the product..
+2025-03-25 08:37:16 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - opening the product
+2025-03-25 08:45:15 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - WebDriver of type chrome driver has been selected...
+2025-03-25 08:45:26 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - URL has been launched
+2025-03-25 08:45:33 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Window has been maximized
+2025-03-25 08:46:54 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done entering the email address..
+2025-03-25 08:46:54 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Clicking on Signin..
+2025-03-25 08:47:06 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done clicking on Signin..
+2025-03-25 08:47:45 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully Logged in to the application..
+2025-03-25 08:48:27 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully entered the search criteria into the search field..
+2025-03-25 08:48:44 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - searching for the product..
+2025-03-25 08:48:44 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - opening the product
+2025-03-25 08:50:19 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully added product to the cart..
+2025-03-25 09:16:57 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - WebDriver of type chrome driver has been selected...
+2025-03-25 09:17:06 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - URL has been launched
+2025-03-25 09:17:12 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Window has been maximized
+2025-03-25 09:18:33 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done entering the email address..
+2025-03-25 09:18:33 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Clicking on Signin..
+2025-03-25 09:18:47 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done clicking on Signin..
+2025-03-25 09:19:21 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully Logged in to the application..
+2025-03-25 09:19:59 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully entered the search criteria into the search field..
+2025-03-25 09:20:21 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - searching for the product..
+2025-03-25 09:20:21 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - opening the product
+2025-03-25 09:22:16 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully added product to the cart..
+2025-03-25 09:26:21 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - WebDriver of type chrome driver has been selected...
+2025-03-25 09:26:35 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - URL has been launched
+2025-03-25 09:26:39 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Window has been maximized
+2025-03-25 09:27:59 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done entering the email address..
+2025-03-25 09:27:59 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Clicking on Signin..
+2025-03-25 09:28:15 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Done clicking on Signin..
+2025-03-25 09:28:59 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully Logged in to the application..
+2025-03-25 09:29:33 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully entered the search criteria into the search field..
+2025-03-25 09:29:52 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - searching for the product..
+2025-03-25 09:29:52 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - opening the product
+2025-03-25 09:31:45 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully added product to the cart..

@@ -59,7 +59,6 @@ public class Signin_add_product_to_Cart extends Log_adder{
 			Page_select.home_page.Data_entry_to_searchbox(properties_retriever.Data("search_for"));
 			logger.info("Successfully entered the search criteria into the search field..");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			logger.info("unable to enter the search criteria into the search field reason: "+e.getMessage());
 		}
 		Actions action = new Actions(driver);
@@ -80,10 +79,16 @@ public class Signin_add_product_to_Cart extends Log_adder{
 				driver.switchTo().window(s);
 			}
 		}
-		//driver.switchTo().window(page2);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		Page_select.productview.add_to_cart();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		Screenshot_taker.capture_screenshot(driver);
 		logger.info("Successfully added product to the cart..");
+	}
+	
+	public void done_performing_scenario() {
+		driver.close();
+		driver.quit();
 	}
 
 }

@@ -8,7 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class Product_Page {
 	
 	WebDriver driver;
-	@FindBy(xpath = "//*[@id=\"search\"]/div[1]/div[1]/div/span[1]/div/div[4]")
+	@FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[@role = \"listitem\"][1]")
+	///html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[@role = "listitem"]
 	WebElement product;
 	
 	public Product_Page(WebDriver driver) {

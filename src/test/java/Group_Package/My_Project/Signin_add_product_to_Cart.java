@@ -11,6 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -86,6 +87,7 @@ public class Signin_add_product_to_Cart extends Log_adder{
 		logger.info("Successfully added product to the cart..");
 	}
 	
+	@AfterClass
 	public void done_performing_scenario() {
 		driver.close();
 		driver.quit();

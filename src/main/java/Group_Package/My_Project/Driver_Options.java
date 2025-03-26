@@ -10,8 +10,8 @@ public class Driver_Options {
         // Run Chrome in headless mode (without UI)
         //options.addArguments("--headless");
 		
-		// To Open Chrome in Incognito Mode
-		options.addArguments("--incognito");
+	// To Open Chrome in Incognito Mode
+	options.addArguments("--incognito");
 
         // Disable GPU hardware acceleration
         options.addArguments("--disable-gpu");

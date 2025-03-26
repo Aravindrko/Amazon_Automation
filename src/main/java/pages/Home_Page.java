@@ -14,6 +14,9 @@ public class Home_Page {
 	@FindBy(xpath = "//*[@id=\"twotabsearchtextbox\"]")
 	WebElement SearchBox;
 	
+	@FindBy(xpath = "//*[@id=\"nav-cart\"]")
+	WebElement cartbutton;
+	
 	public Home_Page(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -29,6 +32,10 @@ public class Home_Page {
 	
 	public void Data_entry_to_searchbox(String search_context) {
 		SearchBox.sendKeys(search_context);
+	}
+	
+	public void click_on_cart() {
+		cartbutton.click();
 	}
 
 }

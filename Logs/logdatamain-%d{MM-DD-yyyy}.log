@@ -290,3 +290,136 @@
 2025-03-25 09:29:52 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - searching for the product..
 2025-03-25 09:29:52 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - opening the product
 2025-03-25 09:31:45 [main] INFO  Group_Package.My_Project.Signin_add_product_to_Cart - Successfully added product to the cart..
+2025-03-25 22:36:11 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-25 22:36:24 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-25 22:36:34 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-25 22:38:01 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-25 22:38:01 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-25 22:38:15 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-25 22:38:34 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-25 22:51:42 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-25 22:52:03 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-25 22:52:11 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-25 22:53:33 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-25 22:53:33 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-25 22:53:48 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-25 22:54:25 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-25 22:55:34 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-25 22:55:54 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-25 22:56:00 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-25 22:57:30 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-25 22:57:30 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-25 22:57:47 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-25 22:58:27 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-25 23:02:43 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-25 23:03:04 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-25 23:03:12 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-25 23:04:43 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-25 23:04:43 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-25 23:05:02 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-25 23:05:41 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-25 23:09:05 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-25 23:09:18 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-25 23:09:29 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-25 23:10:55 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-25 23:10:55 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-25 23:11:09 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-25 23:11:55 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-25 23:12:49 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Number of items available in the cart: 2
+2025-03-25 23:39:44 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-25 23:40:17 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-25 23:40:24 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-25 23:43:21 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-25 23:43:21 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-25 23:43:39 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-25 23:44:37 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-25 23:48:08 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-25 23:48:30 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-25 23:48:44 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-25 23:51:57 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-25 23:51:57 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-25 23:52:27 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-25 23:53:44 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-25 23:56:10 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-25 23:56:24 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-25 23:56:28 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-25 23:57:41 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-25 23:57:41 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-25 23:57:46 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-25 23:58:27 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-26 00:04:22 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 00:04:38 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 00:04:47 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 00:06:12 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-26 00:06:12 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-26 00:06:27 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-26 00:07:08 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-26 00:08:13 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Number of items available in the cart: 2
+2025-03-26 00:11:26 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 00:11:48 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 00:11:55 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 00:13:12 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-26 00:13:12 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-26 00:13:28 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-26 00:14:08 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-26 00:15:01 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Number of items available in the cart: 2
+2025-03-26 00:52:34 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 00:52:47 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 00:52:52 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 00:54:11 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-26 00:54:11 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-26 00:54:25 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-26 00:54:58 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-26 00:55:46 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Number of items available in the cart: 2
+2025-03-26 01:02:36 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 01:02:46 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 01:02:51 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 01:04:21 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-26 01:04:21 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-26 01:04:35 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-26 01:05:12 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-26 01:06:28 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Number of items available in the cart: 2
+2025-03-26 01:16:28 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 01:16:43 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 01:16:51 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 01:18:07 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-26 01:18:07 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-26 01:18:21 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-26 01:18:50 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-26 01:19:45 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Number of items available in the cart: 2
+2025-03-26 01:25:14 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 01:25:30 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 01:25:38 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 01:26:56 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-26 01:26:56 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-26 01:27:11 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-26 01:27:46 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-26 01:38:22 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 01:38:34 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 01:38:42 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 01:39:59 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-26 01:39:59 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-26 01:40:13 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-26 01:40:49 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-26 09:47:14 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 09:47:16 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 09:47:16 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 09:48:01 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 09:48:08 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 09:48:09 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 09:48:38 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done entering the email address..
+2025-03-26 09:48:38 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Clicking on Signin..
+2025-03-26 09:48:49 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Done clicking on Signin..
+2025-03-26 09:49:17 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Successfully Logged in to the application..
+2025-03-26 09:52:16 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 09:52:17 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 09:52:18 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 09:53:28 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 09:53:30 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 09:53:30 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 09:53:55 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 09:53:57 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 09:53:57 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized
+2025-03-26 09:55:10 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - WebDriver of type chrome driver has been selected...
+2025-03-26 09:55:12 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - URL has been launched
+2025-03-26 09:55:12 [main] INFO  Group_Package.My_Project.Verifying_elements_in_cart - Window has been maximized

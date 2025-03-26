@@ -34,13 +34,7 @@ public class Sign_with_Invalid_email extends Log_adder{
 		Page_select.home_page.signin_click();
 		wait = new WebDriverWait(driver, Duration.ofSeconds(2));
 		logger.info("Entering the email address..");
-		/*if(Page_select.signin_page.check_element_of_email() == "//*[@id=\"ap_email_login\"]") {
-			wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_email_login\"]]"))));
-			Page_select.signin_page.Enter_email_address_2(properties_retriever.Data("valid_email"));
-		}else {
-			wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id=\"ap_email\"]"))));
-			Page_select.signin_page.Enter_email_address(properties_retriever.Data("valid_email"));
-		}*/
+		Page_select.signin_page.Enter_email_address(properties_retriever.Data("invalid_email"));
 		logger.info("Done entering the email address..");
 		logger.info("Clicking on Signin..");
 		Page_select.signin_page.Click_on_Signin();

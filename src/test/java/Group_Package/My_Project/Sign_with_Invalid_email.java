@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -27,7 +28,7 @@ public class Sign_with_Invalid_email extends Log_adder{
 	}
 	@Test(priority = '2')
 	public void case2() throws InterruptedException, IOException {
-		driver.get("https://www.amazon.in");
+		driver.get(properties_retriever.Data("testing_url"));
 		logger.info("URL has been launched");
 		driver.manage().window().maximize();
 		logger.info("Window has been maximized");
@@ -44,6 +45,12 @@ public class Sign_with_Invalid_email extends Log_adder{
 		Assert.assertEquals("We cannot find an account with that email address", s);
 		logger.error("Got an error upon entering the email address saying: "+"' "+s+" .'");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+		driver.quit();
+	}
+	
+	@AfterClass
+	public void done_with_performing() {
+		driver.close();
 		driver.quit();
 	}
 

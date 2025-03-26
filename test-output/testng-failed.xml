@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Group_Package.My_Project.Verifying_elements_in_cart">
+      <class name="Group_Package.My_Project.Select_category">
         <methods>
-          <include name="reducing_the_item_count"/>
+          <include name="select_category_of_search_box"/>
           <include name="Signin_to_the_application"/>
           <include name="Initilizer"/>
         </methods>
-      </class> <!-- Group_Package.My_Project.Verifying_elements_in_cart -->
+      </class> <!-- Group_Package.My_Project.Select_category -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

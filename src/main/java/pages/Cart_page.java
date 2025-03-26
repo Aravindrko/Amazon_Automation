@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -14,7 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Cart_page {
 	WebDriver driver;
 	AtomicInteger index = new AtomicInteger();
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	public Cart_page(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -27,7 +28,9 @@ public class Cart_page {
 	List<WebElement> Quantity_of_items; //number of items available
 	
 	@FindBy(xpath = "/html/body/div[1]/div[1]/div[4]/div[5]/div/div[2]/div[1]/div/form/div[2]/div/div[4]/div/div[3]/div[1]/span[1]/span[1]/div/button[1]/span")
-	List<WebElement> quantity_number; //quantity of each item
+	List<WebElement> delete_buttons; //quantity of each item
+	
+	By remove_item_button_xpath = By.xpath("/html/body/div[1]/div[1]/div[4]/div[5]/div/div[2]/div[1]/div/form/div[2]/div/div[4]/div/div[3]/div[1]/span[1]/span[1]/div/button[1]/span");
 	
 	public int number_of_items_in_cart() {
 		return cart_item_list.size();
@@ -38,15 +41,21 @@ public class Cart_page {
 			int i = index.getAndIncrement();
 			String count = Quantity.getText();
 			int cnt = Integer.parseInt(count);
-			for(int j = cnt; j>=1; j--) {
+			for(int j = cnt; j>1; j--) {
 				if(j > 1) 
 				{
-					//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
-					//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
-					wait.until(ExpectedConditions.elementToBeClickable(quantity_number.get(j-1)));
-					quantity_number.get(i).click();
+					try {
+						
+						wait.until(ExpectedConditions.elementToBeClickable(driver.findElements(remove_item_button_xpath).get(i))).click();
+						
+					}catch(Exception e) {
+						
+						j++;
+						
+					}
+					
 				}else {
-					System.out.println("Quantity of the element is not more than 1..");
+					break;
 				}
 			}
 		});

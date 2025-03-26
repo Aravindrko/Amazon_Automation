@@ -33,7 +33,7 @@ public class Signin_add_product_to_Cart extends Log_adder{
 	
 	@Test
 	public void Signin_to_the_application() throws InterruptedException, IOException {
-		driver.get("https://www.amazon.in");
+		driver.get(properties_retriever.Data("testing_url"));
 		logger.info("URL has been launched");
 		driver.manage().window().maximize();
 		logger.info("Window has been maximized");

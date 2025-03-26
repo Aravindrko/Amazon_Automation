@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -26,7 +27,7 @@ public class Verifying_elements_in_cart extends Log_adder{
 	
 	@Test
 	public void Signin_to_the_application() throws InterruptedException, IOException {
-		driver.get("https://www.amazon.in");
+		driver.get(properties_retriever.Data("testing_url"));
 		logger.info("URL has been launched");
 		driver.manage().window().maximize();
 		logger.info("Window has been maximized");
@@ -62,6 +63,10 @@ public class Verifying_elements_in_cart extends Log_adder{
 		Page_select.cart_page.removing_item_count_more_than_1();
 	}
 	
-	
+	@AfterClass
+	public void done_with_performing() {
+		driver.close();
+		driver.quit();
+	}
 
 }

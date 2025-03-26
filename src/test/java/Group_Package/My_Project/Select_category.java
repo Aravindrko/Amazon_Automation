@@ -4,24 +4,22 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
-
-public class Sign_with_valid_Credentials extends Log_adder{
-	
+public class Select_category extends Log_adder{
 	WebDriver driver;
 	WebDriverWait wait;
 	Page_Initializer Page_select;
 	Driver_Selectable driver_select = new Driver_Selectable();
 	@BeforeClass
-	public void selecting_Browser() throws IOException {
+	public void Initilizer() throws IOException {
 		String browser = properties_retriever.Data("browser");
 		driver = driver_select.Select_The_Driver(browser);
 		Page_select = new Page_Initializer(driver);
@@ -30,14 +28,14 @@ public class Sign_with_valid_Credentials extends Log_adder{
 	}
 	
 	@Test
-	public void case2() throws InterruptedException, IOException {
+	public void Signin_to_the_application() throws InterruptedException, IOException {
 		driver.get(properties_retriever.Data("testing_url"));
 		logger.info("URL has been launched");
 		driver.manage().window().maximize();
 		logger.info("Window has been maximized");
 		Page_select.home_page.signin_click();
 		wait = new WebDriverWait(driver, Duration.ofSeconds(2));
-		System.out.println("Entering the email address.."+Page_select.signin_page.check_element_of_email());
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		Page_select.signin_page.Enter_email_address(properties_retriever.Data("valid_email"));
 		logger.info("Done entering the email address..");
 		logger.info("Clicking on Signin..");
@@ -45,14 +43,22 @@ public class Sign_with_valid_Credentials extends Log_adder{
 		logger.info("Done clicking on Signin..");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		Page_select.signin_page.enter_password(properties_retriever.Data("valid_password"));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
 		Page_select.signin_page.clickon_password_signin();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
-		if(Page_select.home_page.get_signed_name() == "Hello, Aravind") {
-			logger.info("Successfully logged into the system..");
-		}else {
-			logger.info("Unable to log into the system, some issue occurred.."+Page_select.home_page.get_signed_name());
-		}
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"nav-logo-sprites\"]")));
+		logger.info("Successfully Logged in to the application..");
+	}
+	
+	@Test(dependsOnMethods = "Signin_to_the_application")
+	public void select_category_of_search_box() throws IOException {
+		Page_select.home_page.to_Select_Category();
+		Page_select.home_page.select_category(properties_retriever.Data("category"));
+		Screenshot_taker.capture_screenshot(driver);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+		Page_select.home_page.Data_entry_to_searchbox(properties_retriever.Data("movie_name"));
+		Actions action = new Actions(driver);
+		action.keyDown(Keys.ENTER);
+		action.keyUp(Keys.ENTER);
+		action.build().perform();
 	}
 	
 	@AfterClass

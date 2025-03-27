@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T23:54:47 IST" name="Default suite" finished-at="2025-03-26T23:58:27 IST" duration-ms="219260">
+  <suite started-at="2025-03-27T09:56:40 IST" name="Default suite" finished-at="2025-03-27T10:01:59 IST" duration-ms="318339">
     <groups>
     </groups>
-    <test started-at="2025-03-26T23:54:47 IST" name="Default test" finished-at="2025-03-26T23:58:27 IST" duration-ms="219260">
-      <class name="Group_Package.My_Project.Verifying_elements_in_cart">
-        <test-method is-config="true" signature="Initilizer()[pri:0, instance:Group_Package.My_Project.Verifying_elements_in_cart@74c79fa2]" started-at="2025-03-26T23:54:48 IST" name="Initilizer" finished-at="2025-03-26T23:55:00 IST" duration-ms="12487" status="PASS">
+    <test started-at="2025-03-27T09:56:40 IST" name="Default test" finished-at="2025-03-27T10:01:59 IST" duration-ms="318339">
+      <class name="Group_Package.My_Project.Search_product_check_filters">
+        <test-method is-config="true" signature="Initilizer()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@74c79fa2]" started-at="2025-03-27T09:56:40 IST" name="Initilizer" finished-at="2025-03-27T09:56:53 IST" duration-ms="12345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initilizer -->
-        <test-method signature="Signin_to_the_application()[pri:0, instance:Group_Package.My_Project.Verifying_elements_in_cart@74c79fa2]" started-at="2025-03-26T23:55:00 IST" name="Signin_to_the_application" finished-at="2025-03-26T23:57:25 IST" duration-ms="145068" status="PASS">
+        <test-method signature="Signin_to_the_application()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@74c79fa2]" started-at="2025-03-27T09:56:53 IST" name="Signin_to_the_application" finished-at="2025-03-27T09:59:58 IST" duration-ms="184965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signin_to_the_application -->
-        <test-method signature="reducing_the_item_count()[pri:2, instance:Group_Package.My_Project.Verifying_elements_in_cart@74c79fa2]" started-at="2025-03-26T23:57:25 IST" name="reducing_the_item_count" finished-at="2025-03-26T23:58:27 IST" depends-on-methods="Group_Package.My_Project.Verifying_elements_in_cart.Signin_to_the_application" duration-ms="61548" status="PASS">
+        <test-method signature="Selecting_filters()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@74c79fa2]" started-at="2025-03-27T09:59:58 IST" name="Selecting_filters" finished-at="2025-03-27T10:00:02 IST" duration-ms="3852" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reducing_the_item_count -->
-      </class> <!-- Group_Package.My_Project.Verifying_elements_in_cart -->
+        </test-method> <!-- Selecting_filters -->
+        <test-method signature="select_category_of_search_box()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@74c79fa2]" started-at="2025-03-27T10:00:02 IST" name="select_category_of_search_box" finished-at="2025-03-27T10:01:59 IST" depends-on-methods="Group_Package.My_Project.Search_product_check_filters.Signin_to_the_application" duration-ms="116967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_category_of_search_box -->
+      </class> <!-- Group_Package.My_Project.Search_product_check_filters -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

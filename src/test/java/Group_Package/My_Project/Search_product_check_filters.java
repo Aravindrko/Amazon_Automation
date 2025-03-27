@@ -51,7 +51,7 @@ public class Search_product_check_filters extends Log_adder{
 	public void select_category_of_search_box() throws IOException {
 		Page_select.home_page.to_Select_Category();
 		Page_select.home_page.select_category(properties_retriever.Data("category"));
-		Screenshot_taker.capture_screenshot(driver);
+		//Screenshot_taker.capture_screenshot(driver);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
 		Page_select.home_page.Data_entry_to_searchbox(properties_retriever.Data("search_for"));
 		Actions action = new Actions(driver);

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Group_Package.My_Project.Select_category">
+      <class name="Group_Package.My_Project.Search_product_check_filters">
         <methods>
+          <include name="Initilizer"/>
+          <include name="Selecting_filters"/>
           <include name="select_category_of_search_box"/>
           <include name="Signin_to_the_application"/>
-          <include name="Initilizer"/>
         </methods>
-      </class> <!-- Group_Package.My_Project.Select_category -->
+      </class> <!-- Group_Package.My_Project.Search_product_check_filters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

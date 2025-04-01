@@ -7,6 +7,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,6 +19,7 @@ public class Product_Page {
 	WebDriver driver;
 	AtomicInteger iterator = new AtomicInteger();
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	Actions action = new Actions(driver);
 	
 	@FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[@role = \"listitem\"][1]")
 	WebElement product;
@@ -26,6 +29,12 @@ public class Product_Page {
 	
 	@FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/span/div[1]/span/div/div[2]/div[1]/ul/span/span/li/span/a/div")
 	List<WebElement> delivery_day_check_box;
+	
+	@FindBy(xpath = "//*[@id=\"p_36/range-slider_slider-item_lower-bound-slider\"]")
+	WebElement low_end_nob;
+	
+	@FindBy(xpath = "//*[@id=\"p_36/range-slider_slider-item_upper-bound-slider\"]")
+	WebElement high_end_nob;
 	
 	By delivery_day_check_boxes = By.xpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div[3]/span/div[1]/span/div/div[2]/div[1]/ul/span/span/li/span/a/div");
 	
@@ -60,6 +69,10 @@ public class Product_Page {
 			}
 		});
 		
+	}
+	
+	public void select_price_using_drag() {
+		action.dragAndDropBy(high_end_nob, 0, 50).perform();
 	}
 
 }

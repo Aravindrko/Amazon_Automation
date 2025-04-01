@@ -14,12 +14,11 @@ public class Page_Initializer {
 	public Product_Page page;
 	public product_view productview;
 	public Cart_page cart_page;
-	//public Object home_page;
 	
 	public Page_Initializer(WebDriver driver) {
 		System.out.println("driver info from page_Initializer method.."+driver);
 		home_page = new Home_Page(driver);
-		signin_page = new Signin_Page(driver);// TODO Auto-generated constructor stub
+		signin_page = new Signin_Page(driver);
 		page = new Product_Page(driver);
 		productview = new product_view(driver);
 		cart_page = new Cart_page(driver);

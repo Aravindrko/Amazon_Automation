@@ -6,24 +6,36 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Search_product_check_filters extends Log_adder{
 	WebDriver driver;
 	WebDriverWait wait;
 	Page_Initializer Page_select;
 	Driver_Selectable driver_select = new Driver_Selectable();
+	
 	@BeforeClass
-	public void Initilizer() throws IOException {
-		String browser = properties_retriever.Data("browser");
-		driver = driver_select.Select_The_Driver(browser);
+	public void Initilizer() throws IOException, InterruptedException {
+		System.setProperty("webdriver-manager.log", "DEBUG");
+		//WebDriverManager.chromedriver().setup();
+		driver = driver_select.Select_The_Driver(properties_retriever.Data("browser"));
+		//driver.getCapabilities().getVersion();
+		//WebDriverManager.chromedriver().setup();
+		//driver = new ChromeDriver();
+		//driver.manage().deleteAllCookies();
+		//System.setProperty("webdriver.chrome.driver", "/Users/aravindsaigamini/Documents/Java_Selenium/My_Project/drivers/chromedriver");
+	    //driver = new ChromeDriver();
+		//driver = new FirefoxDriver();
 		Page_select = new Page_Initializer(driver);
-		logger.info("WebDriver of type "+browser+" driver has been selected...");
-		System.out.println("WebDriver of type "+browser+" driver has been selected...");
+		logger.info("WebDriver of type driver has been selected...");
 	}
 	
 	@Test
@@ -64,6 +76,8 @@ public class Search_product_check_filters extends Log_adder{
 	public void Selecting_filters() throws IOException {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		Page_select.page.check_the_checkbox_deliveryday(properties_retriever.Data("deliveryday_option"));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+		Page_select.page.select_price_using_drag();
 	}
 
 }

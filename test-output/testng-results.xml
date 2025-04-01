@@ -1,25 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-28T01:46:18 IST" name="Default suite" finished-at="2025-03-28T01:52:35 IST" duration-ms="376704">
+  <suite started-at="2025-03-29T23:40:47 IST" name="Default suite" finished-at="2025-03-29T23:41:10 IST" duration-ms="23088">
     <groups>
     </groups>
-    <test started-at="2025-03-28T01:46:18 IST" name="Default test" finished-at="2025-03-28T01:52:35 IST" duration-ms="376704">
+    <test started-at="2025-03-29T23:40:47 IST" name="Default test" finished-at="2025-03-29T23:41:10 IST" duration-ms="23088">
       <class name="Group_Package.My_Project.Search_product_check_filters">
-        <test-method is-config="true" signature="Initilizer()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@74c79fa2]" started-at="2025-03-28T01:46:18 IST" name="Initilizer" finished-at="2025-03-28T01:46:29 IST" duration-ms="11269" status="PASS">
+        <test-method is-config="true" signature="Initilizer()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@2d6764b2]" started-at="2025-03-29T23:40:47 IST" name="Initilizer" finished-at="2025-03-29T23:41:10 IST" duration-ms="22949" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:64)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:67)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:63)
+at pages.Product_Page.<init>(Product_Page.java:22)
+at Group_Package.My_Project.Page_Initializer.<init>(Page_Initializer.java:22)
+at Group_Package.My_Project.Search_product_check_filters.Initilizer(Search_product_check_filters.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initilizer -->
-        <test-method signature="Signin_to_the_application()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@74c79fa2]" started-at="2025-03-28T01:46:29 IST" name="Signin_to_the_application" finished-at="2025-03-28T01:49:16 IST" duration-ms="166063" status="PASS">
+        <test-method signature="Signin_to_the_application()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@2d6764b2]" started-at="2025-03-29T23:41:10 IST" name="Signin_to_the_application" finished-at="2025-03-29T23:41:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:64)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:67)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:63)
+at pages.Product_Page.<init>(Product_Page.java:22)
+at Group_Package.My_Project.Page_Initializer.<init>(Page_Initializer.java:22)
+at Group_Package.My_Project.Search_product_check_filters.Initilizer(Search_product_check_filters.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signin_to_the_application -->
-        <test-method signature="select_category_of_search_box()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@74c79fa2]" started-at="2025-03-28T01:49:16 IST" name="select_category_of_search_box" finished-at="2025-03-28T01:50:41 IST" depends-on-methods="Group_Package.My_Project.Search_product_check_filters.Signin_to_the_application" duration-ms="85110" status="PASS">
+        <test-method signature="select_category_of_search_box()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@2d6764b2]" started-at="2025-03-29T23:41:10 IST" name="select_category_of_search_box" finished-at="2025-03-29T23:41:10 IST" depends-on-methods="Group_Package.My_Project.Search_product_check_filters.Signin_to_the_application" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Group_Package.My_Project.Search_product_check_filters.select_category_of_search_box() on instance Group_Package.My_Project.Search_product_check_filters@2d6764b2 depends on not successfully finished methods 
+[Group_Package.My_Project.Search_product_check_filters.Signin_to_the_application() on instance Group_Package.My_Project.Search_product_check_filters@2d6764b2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Group_Package.My_Project.Search_product_check_filters.select_category_of_search_box() on instance Group_Package.My_Project.Search_product_check_filters@2d6764b2 depends on not successfully finished methods 
+[Group_Package.My_Project.Search_product_check_filters.Signin_to_the_application() on instance Group_Package.My_Project.Search_product_check_filters@2d6764b2]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- select_category_of_search_box -->
-        <test-method signature="Selecting_filters()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@74c79fa2]" started-at="2025-03-28T01:50:41 IST" name="Selecting_filters" finished-at="2025-03-28T01:52:35 IST" depends-on-methods="Group_Package.My_Project.Search_product_check_filters.select_category_of_search_box" duration-ms="114079" status="PASS">
+        <test-method signature="Selecting_filters()[pri:0, instance:Group_Package.My_Project.Search_product_check_filters@2d6764b2]" started-at="2025-03-29T23:41:10 IST" name="Selecting_filters" finished-at="2025-03-29T23:41:10 IST" depends-on-methods="Group_Package.My_Project.Search_product_check_filters.select_category_of_search_box" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Group_Package.My_Project.Search_product_check_filters.Selecting_filters() on instance Group_Package.My_Project.Search_product_check_filters@2d6764b2 depends on not successfully finished methods 
+[Group_Package.My_Project.Search_product_check_filters.select_category_of_search_box() on instance Group_Package.My_Project.Search_product_check_filters@2d6764b2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Group_Package.My_Project.Search_product_check_filters.Selecting_filters() on instance Group_Package.My_Project.Search_product_check_filters@2d6764b2 depends on not successfully finished methods 
+[Group_Package.My_Project.Search_product_check_filters.select_category_of_search_box() on instance Group_Package.My_Project.Search_product_check_filters@2d6764b2]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Selecting_filters -->

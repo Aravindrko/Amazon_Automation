@@ -16,8 +16,15 @@ public class product_view {
 	@FindBy(xpath = "//*[@id=\"add-to-cart-button\"]")
 	WebElement add_to_cart;
 	
+	@FindBy(xpath = "//*[@id=\"buy-now-button\"]")
+	WebElement buy_now;
+	
 	public void add_to_cart() {
 		add_to_cart.click();
+	}
+	
+	public void buy_now() {
+		buy_now.click();
 	}
 
 }

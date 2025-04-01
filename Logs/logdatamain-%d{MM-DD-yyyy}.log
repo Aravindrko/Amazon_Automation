@@ -755,3 +755,13 @@
 2025-03-28 01:48:14 [main] INFO  Group_Package.My_Project.Search_product_check_filters - Clicking on Signin..
 2025-03-28 01:48:32 [main] INFO  Group_Package.My_Project.Search_product_check_filters - Done clicking on Signin..
 2025-03-28 01:49:16 [main] INFO  Group_Package.My_Project.Search_product_check_filters - Successfully Logged in to the application..
+2025-04-01 23:17:47 [main] INFO  Group_Package.My_Project.end_to_end - WebDriver of type chrome driver has been selected...
+2025-04-01 23:17:57 [main] INFO  Group_Package.My_Project.end_to_end - URL has been launched
+2025-04-01 23:18:05 [main] INFO  Group_Package.My_Project.end_to_end - Window has been maximized
+2025-04-01 23:19:30 [main] INFO  Group_Package.My_Project.end_to_end - Done entering the email address..
+2025-04-01 23:19:30 [main] INFO  Group_Package.My_Project.end_to_end - Clicking on Signin..
+2025-04-01 23:19:46 [main] INFO  Group_Package.My_Project.end_to_end - Done clicking on Signin..
+2025-04-01 23:20:26 [main] INFO  Group_Package.My_Project.end_to_end - Successfully Logged in to the application..
+2025-04-01 23:21:31 [main] INFO  Group_Package.My_Project.end_to_end - Successfully entered the search criteria into the search field..
+2025-04-01 23:22:01 [main] INFO  Group_Package.My_Project.end_to_end - searching for the product..
+2025-04-01 23:22:01 [main] INFO  Group_Package.My_Project.end_to_end - opening the product

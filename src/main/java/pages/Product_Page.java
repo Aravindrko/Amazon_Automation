@@ -5,8 +5,10 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.devtools.idealized.Javascript;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -18,8 +20,10 @@ public class Product_Page {
 	
 	WebDriver driver;
 	AtomicInteger iterator = new AtomicInteger();
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-	Actions action = new Actions(driver);
+	WebDriverWait wait;
+	Actions action;
+	
+	//html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div
 	
 	@FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[@role = \"listitem\"][1]")
 	WebElement product;
@@ -42,10 +46,13 @@ public class Product_Page {
 	
 	public Product_Page(WebDriver driver) {
 		this.driver = driver;
+		action = new Actions(driver);
+		wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		PageFactory.initElements(driver, this);
 	}
 	
 	public void select_the_product() {
+		wait.until(ExpectedConditions.elementToBeClickable(product));
 		product.click();
 	}
 	
@@ -72,7 +79,12 @@ public class Product_Page {
 	}
 	
 	public void select_price_using_drag() {
-		action.dragAndDropBy(high_end_nob, 0, 50).perform();
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		WebElement low = driver.findElement(By.xpath("//input[@type = \"range\" and @aria-label= \"Minimum price\"]"));
+		wait.until(ExpectedConditions.elementToBeClickable(low));
+		js.executeScript("arguments[0].value = 30;", low);
+		js.executeScript("arguments[0].dispatchEvent(new Event('input'));", low);
+		
 	}
 
 }

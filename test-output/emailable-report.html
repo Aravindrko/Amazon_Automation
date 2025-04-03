@@ -9,19 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">313,644</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">322,164</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Group_Package.My_Project.end_to_end</td><td><a href="#m0">search_and_add_product_to_cart</a></td><td rowspan="1">1743529826699</td><td rowspan="1">143755</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Group_Package.My_Project.end_to_end</td><td><a href="#m1">Signin_to_the_application</a></td><td rowspan="1">1743529667377</td><td rowspan="1">159302</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Group_Package.My_Project.Applying_coupan</td><td><a href="#m0">get_the_offers_available</a></td><td rowspan="1">1743628998572</td><td rowspan="1">89068</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Group_Package.My_Project.Applying_coupan</td><td><a href="#m1">Signin_to_the_application</a></td><td rowspan="1">1743628772393</td><td rowspan="1">90565</td></tr><tr class="passedeven"><td><a href="#m2">search_for_the_product</a></td><td rowspan="1">1743628862974</td><td rowspan="1">135520</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Group_Package.My_Project.end_to_end#search_and_add_product_to_cart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;buy-now-button&quot;]&quot;}
+<h2>Default test</h2><h3 id="m0">Group_Package.My_Project.Applying_coupan#get_the_offers_available</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; data-csa-c-slot-id=&quot;add-new-address-non-mobile-tango-sasp-zero-address&quot; data-csa-c-type=&quot;button&quot; class=&quot;a-button-text a-declarative&quot; data-csa-c-id=&quot;2si6eb-5ia8i8-heiwmo-z0icey&quot;&gt;...&lt;/a&gt; is not clickable at point (294, 146). Other element would receive the click: &lt;div class=&quot;a-modal-scroller a-declarative&quot; data-action=&quot;a-popover-floating-close&quot; style=&quot;padding-bottom: 1px; visibility: visible;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=134.0.6998.166)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;23.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2ed304cce5d30eed301b60f29018c95f, findElement {using=xpath, value=//*[@id=&quot;buy-now-button&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/94/_bxj2m4s737...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49504/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2ed304cce5d30eed301b60f29018c95f
+Command: [6bd5029f39ec4aac82408e7749be23ca, clickElement {id=f.1843A59189C39EF54211C8D75AF4295B.d.3DE41BDF0795134CD249B97614328087.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/94/_bxj2m4s737...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55395}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55395/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (6bd5029f39ec4aac82408e7749be23ca)] -&gt; xpath: //*[@id=&quot;add-new-address-desktop-sasp-tango-link&quot;]/span/a]
+Session ID: 6bd5029f39ec4aac82408e7749be23ca
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -32,15 +32,14 @@ Session ID: 2ed304cce5d30eed301b60f29018c95f
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
-	at pages.product_view.buy_now(product_view.java:27)
-	at Group_Package.My_Project.end_to_end.search_and_add_product_to_cart(end_to_end.java:79)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at pages.add_address_page.click_on_add_address(add_address_page.java:51)
+	at Group_Package.My_Project.Applying_coupan.get_the_offers_available(Applying_coupan.java:95)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -68,6 +67,7 @@ Session ID: 2ed304cce5d30eed301b60f29018c95f
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Group_Package.My_Project.end_to_end#Signin_to_the_application</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Group_Package.My_Project.Applying_coupan#Signin_to_the_application</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Group_Package.My_Project.Applying_coupan#search_for_the_product</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

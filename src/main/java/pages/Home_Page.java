@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Home_Page {
 	WebDriver driver;
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	WebDriverWait wait;
 	
 	@FindBy(xpath = "//*[@id=\"nav-link-accountList-nav-line-1\"]")
 	WebElement Signin;
@@ -34,6 +34,7 @@ public class Home_Page {
 	
 	public Home_Page(WebDriver driver) {
 		this.driver = driver;
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
 	}
 	

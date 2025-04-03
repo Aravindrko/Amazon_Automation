@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Group_Package.My_Project.end_to_end">
+      <class name="Group_Package.My_Project.Applying_coupan">
         <methods>
-          <include name="search_and_add_product_to_cart"/>
-          <include name="Signin_to_the_application"/>
           <include name="selecting_Browser"/>
+          <include name="Signin_to_the_application"/>
+          <include name="search_for_the_product"/>
+          <include name="get_the_offers_available"/>
         </methods>
-      </class> <!-- Group_Package.My_Project.end_to_end -->
+      </class> <!-- Group_Package.My_Project.Applying_coupan -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

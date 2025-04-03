@@ -15,9 +15,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Cart_page {
 	WebDriver driver;
 	AtomicInteger index = new AtomicInteger();
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	WebDriverWait wait;
+	
 	public Cart_page(WebDriver driver) {
 		this.driver = driver;
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
 	}
 	

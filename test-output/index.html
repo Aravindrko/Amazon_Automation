@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Group_Package.My_Project.end_to_end" class="method navigator-link" hash-for-method="search_and_add_product_to_cart">search_and_add_product_to_cart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Group_Package.My_Project.Applying_coupan" class="method navigator-link" hash-for-method="get_the_offers_available">get_the_offers_available</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -117,7 +117,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Group_Package.My_Project.end_to_end" class="method navigator-link" hash-for-method="Signin_to_the_application">Signin_to_the_application</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Group_Package.My_Project.Applying_coupan" class="method navigator-link" hash-for-method="Signin_to_the_application">Signin_to_the_application</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Group_Package.My_Project.Applying_coupan" class="method navigator-link" hash-for-method="search_for_the_product">search_for_the_product</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -135,23 +140,23 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">Group_Package.My_Project.end_to_end</span>
+              <span class="class-name">Group_Package.My_Project.Applying_coupan</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="search_and_add_product_to_cart">
-                  </a> <!-- search_and_add_product_to_cart -->
-                  <span class="method-name">search_and_add_product_to_cart</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;buy-now-button&quot;]&quot;}
+                  <a name="get_the_offers_available">
+                  </a> <!-- get_the_offers_available -->
+                  <span class="method-name">get_the_offers_available</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;#&quot; data-csa-c-slot-id=&quot;add-new-address-non-mobile-tango-sasp-zero-address&quot; data-csa-c-type=&quot;button&quot; class=&quot;a-button-text a-declarative&quot; data-csa-c-id=&quot;2si6eb-5ia8i8-heiwmo-z0icey&quot;&gt;...&lt;/a&gt; is not clickable at point (294, 146). Other element would receive the click: &lt;div class=&quot;a-modal-scroller a-declarative&quot; data-action=&quot;a-popover-floating-close&quot; style=&quot;padding-bottom: 1px; visibility: visible;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=134.0.6998.166)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
 System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.3.2&apos;, java.version: &apos;23.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2ed304cce5d30eed301b60f29018c95f, findElement {using=xpath, value=//*[@id=&quot;buy-now-button&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/94/_bxj2m4s737...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49504/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2ed304cce5d30eed301b60f29018c95f
+Command: [6bd5029f39ec4aac82408e7749be23ca, clickElement {id=f.1843A59189C39EF54211C8D75AF4295B.d.3DE41BDF0795134CD249B97614328087.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/94/_bxj2m4s737...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55395}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55395/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (6bd5029f39ec4aac82408e7749be23ca)] -&gt; xpath: //*[@id=&quot;add-new-address-desktop-sasp-tango-link&quot;]/span/a]
+Session ID: 6bd5029f39ec4aac82408e7749be23ca
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -162,15 +167,14 @@ Session ID: 2ed304cce5d30eed301b60f29018c95f
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
-	at pages.product_view.buy_now(product_view.java:27)
-	at Group_Package.My_Project.end_to_end.search_and_add_product_to_cart(end_to_end.java:79)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at pages.add_address_page.click_on_add_address(add_address_page.java:51)
+	at Group_Package.My_Project.Applying_coupan.get_the_offers_available(Applying_coupan.java:95)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -206,7 +210,7 @@ Session ID: 2ed304cce5d30eed301b60f29018c95f
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Group_Package.My_Project.end_to_end</span>
+              <span class="class-name">Group_Package.My_Project.Applying_coupan</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -216,12 +220,19 @@ Session ID: 2ed304cce5d30eed301b60f29018c95f
                   <span class="method-name">Signin_to_the_application</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_for_the_product">
+                  </a> <!-- search_for_the_product -->
+                  <span class="method-name">search_for_the_product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/94/_bxj2m4s737gd_9025tqzz8r0000gn/T/testng-eclipse--2052102329/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/94/_bxj2m4s737gd_9025tqzz8r0000gn/T/testng-eclipse-1938006085/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -230,7 +241,7 @@ Session ID: 2ed304cce5d30eed301b60f29018c95f
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Group_Package.My_Project.end_to_end&quot;/&gt;
+      &lt;class name=&quot;Group_Package.My_Project.Applying_coupan&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -270,15 +281,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Signin_to_the_application')
-data.setCell(0, 2, 'Group_Package.My_Project.end_to_end')
-data.setCell(0, 3, 159302);
+data.setCell(0, 1, 'search_for_the_product')
+data.setCell(0, 2, 'Group_Package.My_Project.Applying_coupan')
+data.setCell(0, 3, 135520);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'search_and_add_product_to_cart')
-data.setCell(1, 2, 'Group_Package.My_Project.end_to_end')
-data.setCell(1, 3, 143755);
+data.setCell(1, 1, 'Signin_to_the_application')
+data.setCell(1, 2, 'Group_Package.My_Project.Applying_coupan')
+data.setCell(1, 3, 90565);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'get_the_offers_available')
+data.setCell(2, 2, 'Group_Package.My_Project.Applying_coupan')
+data.setCell(2, 3, 89068);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -309,20 +324,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Group_Package.My_Project.end_to_end</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Group_Package.My_Project.Applying_coupan</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">selecting_Browser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Signin_to_the_application</span>
-                <span class="method-start">10518 ms</span>
+                <span class="method-start">6837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">search_for_the_product</span>
+                <span class="method-start">97418 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">search_and_add_product_to_cart</span>
-                <span class="method-start">169840 ms</span>
+                <span class="method-name">get_the_offers_available</span>
+                <span class="method-start">233016 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
